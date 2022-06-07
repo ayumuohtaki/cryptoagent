@@ -1,7 +1,7 @@
 <?php if( ! is_front_page() ): ?>
     <?php endif; ?>
 <footer>
-    <div class="footer">
+    <div id="footer">
         <div class="footer-text">
             <p>運営会社</p>
         </div>
