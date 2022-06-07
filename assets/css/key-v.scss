@@ -1,0 +1,75 @@
+@charset 'UTF-8';
+#key-v{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/cover.png");
+    object-fit: cover;
+    background-size: cover;
+    z-index: 100;
+    overflow: hidden;
+    position: relative;
+    .key-v-item {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        bottom: 0;
+        position: absolute;
+        margin: 0 0 8vh 10vw;
+        p {
+            color: white;
+            text-shadow: -2px -3px 3px gray;
+            font-weight: 900;
+            font-size: 2vw;
+            line-height: 1.5;
+            letter-spacing: 0.25em; 
+            margin: 2vh 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+}
+/* --------------------------------
+ * smart phone
+ * -------------------------------- */
+ @media screen and (max-width: 480px) {
+    #key-v{
+        width: 100%;
+        background-image: url("../images/sp-key.jpg");
+        height: 30vh;
+        z-index: 110;
+        .key-v-item {
+            margin: 0 0 2vh 8vw;
+            p {
+                font-family: "Arial";
+                font-size: 10px;
+                margin-bottom: 1vh;
+                margin-top: 0;
+            }
+            .key-v-btn {
+                text-align: center;
+            }
+        }
+    }
+}
+/* --------------------------------
+ * ipad
+ * -------------------------------- */ 
+ @media  screen and (max-width: 830px) and (min-width: 480px) {
+    .key-v{
+        width: 100%;
+        background-image: url("../images/ip-key.jpg");
+        height: 80vh;
+        background-size: cover;
+        .key-v-item {
+            margin: 0vh 10vw 6vh;
+            p {
+                font-size: 4vw;
+                line-height: 1.5;
+                margin: 1vh 0;
+            }
+            .key-v-btn {
+                text-align: center;
+                left: 80vw;
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="key-v blur">
+<div id="key-v">
     <div class="key-v-item">
             <p class="mission-1 animate__animated animate__fadeInUp animate__delay-3s">日本初、WEB3特化型<br>フリーランスエージェント</P>
             <p class="mission-2 animate__animated animate__fadeInUp animate__delay-4s">ブロックチェーン,メタバース,<br>VR,ARなど案件多数</p>
