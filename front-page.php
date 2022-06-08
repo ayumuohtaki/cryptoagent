@@ -11,38 +11,27 @@
 <div id="job"class="job">
     <h2>-Job-</h2>
     <h4>クリプトエージェントの案件</h4>
-<ul class="job-1">
-    <li class="item">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nft_1.jpeg"  alt="" />
-        <h3 class="job-name">メガベンチャーNFTサービスの開発</h3>
-        <p class="text">【業務内容】<br>
-        NFTサービスのアジャイル開発<br>
-        メンバー、テックリード
-        </p>
-        <p class="text">【作業場所】<br>
-        フルリモート</p>
-        <p class="text">【単価】<br>
-        スキル見合い</p>
-        <P class="text"><p>【必要スキル】<br>
-        ・WEBアプリ開発経験（2年以上）<br>
-        ・Ruby on Rail経験（2年以上）<br>
-        ・ブロックチェーン開発経験（尚可）<br>
-        ・JavaScript経験（2年以上）<br>
-        ・Solidity（尚可）<br>
-        ・AWS経験(尚可)</p>
-    </li>
-    <li class="item">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/meta.jpeg" alt="" />
-        <h3 class="job-name">メタバースプラットフォームの開発</h3>
-        <p class="text">【業務内容】<br>
-        ゲームを含む<br>
-        メタバースプラットフォームの開発<br>
-        （複数PJあり適性希望に応じて配属）<br>
-        メンバー、チームリーダー
-        </p>
-        <p class="text">【作業場所】<br>
-        フルリモート
-        </p>
+    <ul class="job-1">
+        <li class="item">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nft_1.jpeg"  alt="" />
+            <h3 class="job-name">メガベンチャーNFTサービスの開発</h3>
+            <p class="text">【業務内容】<br>NFTサービスのアジャイル開発<br>メンバー、テックリード</p>
+            <p class="text">【作業場所】<br>フルリモート</p>
+            <p class="text">【単価】<br>スキル見合い</p>
+            <P class="text"><p>【必要スキル】<br>
+                ・WEBアプリ開発経験（2年以上）<br>
+                ・Ruby on Rail経験（2年以上）<br>
+                ・ブロックチェーン開発経験（尚可）<br>
+                ・JavaScript経験（2年以上）<br>
+                ・Solidity（尚可）<br>
+                ・AWS経験(尚可)
+            </p>
+        </li>
+        <li class="item">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/meta.jpeg" alt="" />
+            <h3 class="job-name">メタバースプラットフォームの開発</h3>
+            <p class="text">【業務内容】<br>ゲームを含む<br>メタバースプラットフォームの開発<br>（複数PJあり適性希望に応じて配属）<br>メンバー、チームリーダー</p>
+            <p class="text">【作業場所】<br>フルリモート</p>
         <p class="text">【単価】<br>
         スキル見合い（MAX110万）
         </p>    
